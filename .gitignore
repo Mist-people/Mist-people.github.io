@@ -1,0 +1,39 @@
+git-update.sh
+
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby/Bundler
+.bundle/
+vendor/
+Gemfile.lock
+*.gem
+.ruby-version
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+# Local documentation and operation logs
+LOCAL_SETUP.md
+logs/
+.playwright-mcp/
